@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YuuNaka | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page-overlay"></div>
+  <div class="grid-background"></div>
+  <div class="glow-effect"></div>
+
+  <header class="floating-nav">
+    <div class="logo">YuuNaka<span>.</span></div>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a href="#contact" class="btn-pill primary">Contact Me</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <span class="badge">Available for Projects</span>
+        <h1>Halo, Saya <span>YuuNaka</span></h1>
+        <p>Mahasiswa aktif semester 5 di Universitas Buddhi Dharma jurusan Teknik Informatika dengan konsentrasi Data Science. Memiliki minat besar dalam eksplorasi teknologi, pengelolaan data, serta pengembangan aplikasi berbasis web. Terbiasa memanfaatkan perangkat teknologi modern untuk merancang sistem, membangun antarmuka digital yang menarik, serta siap belajar dan berkontribusi secara nyata dalam proyek teknologi.</p>
+        <div class="hero-btns">
+          <a href="#portfolio" class="btn-pill primary">Lihat Proyek</a>
+          <a href="#contact" class="btn-pill secondary">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="workflow-diagram">
+          <div class="node active">UI/UX Design</div>
+          <div class="connector"></div>
+          <div class="node">Backend / Logic</div>
+          <div class="connector"></div>
+          <div class="node secondary">Database</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <span class="badge">About Me</span>
+      <h2>Profil & Keahlian</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Pendidikan</h3>
+          <p><strong>Universitas Buddhi Dharma</strong><br>S1 Teknik Informatika (Konsentrasi Data Science) - Semester 5</p>
+          <p style="margin-top: 12px;"><strong>SMK Buddhi</strong><br>Lulusan Jurusan Multimedia</p>
+        </div>
+        <div class="about-card">
+          <h3>Data Science Stack</h3>
+          <ul class="skill-list">
+            <li>Python</li>
+            <li>Pandas / NumPy</li>
+            <li>SQL & Database</li>
+            <li>Jupyter Notebook</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <h3>Web & Dev Tools</h3>
+          <ul class="skill-list">
+            <li>HTML5 / CSS3</li>
+            <li>JavaScript</li>
+            <li>PHP / MySQL</li>
+            <li>Git / GitHub</li>
+            <li>UI/UX Design</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+      <span class="badge">Portfolio</span>
+      <h2>Proyek Pilihan</h2>
+      <div class="project-grid single-project-grid">
+        <article class="project-card">
+          <span>01</span>
+          <h3>Modern AI & Futuristic Portfolio</h3>
+          <p>Website portofolio pribadi interaktif yang dirancang dengan tema gelap futuristik, efek cahaya neon, serta animasi transisi halaman yang halus untuk menampilkan identitas profesional.</p>
+          <div class="tech" style="margin-top: 15px; font-size: 0.85rem; color: var(--accent);">HTML5, CSS3, JavaScript</div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <span class="badge">Get In Touch</span>
+      <h2>Kontak Saya</h2>
+      <p>Tertarik berkolaborasi? Hubungi saya melalui media berikut:</p>
+      <div class="contact-links">
+        <a href="mailto:frozzr31@gmail.com">Email</a>
+        <a href="https://github.com/frozzr31" target="_blank">GitHub</a>
+        <a href="#">LinkedIn (Soon)</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <p>&copy; 2026 <span>YuuNaka</span>. All rights reserved.</p>
+    <p class="footer-credit">Designed with <span>♥</span> by <strong>ItsLaZzz</strong></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
